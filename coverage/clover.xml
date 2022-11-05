@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1667602601511" clover="3.2.0">
-  <project timestamp="1667602601511" name="All files">
-    <metrics statements="98" coveredstatements="76" conditionals="13" coveredconditionals="8" methods="21" coveredmethods="15" elements="132" coveredelements="99" complexity="0" loc="98" ncloc="98" packages="3" files="7" classes="7"/>
+<coverage generated="1667632360092" clover="3.2.0">
+  <project timestamp="1667632360092" name="All files">
+    <metrics statements="98" coveredstatements="90" conditionals="13" coveredconditionals="10" methods="21" coveredmethods="17" elements="132" coveredelements="117" complexity="0" loc="98" ncloc="98" packages="3" files="7" classes="7"/>
     <package name="database.config">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="config.js" path="C:\chapter11\src\database\config\config.js">
@@ -52,9 +52,9 @@
       </file>
     </package>
     <package name="user">
-      <metrics statements="67" coveredstatements="46" conditionals="4" coveredconditionals="2" methods="14" coveredmethods="8"/>
+      <metrics statements="67" coveredstatements="60" conditionals="4" coveredconditionals="4" methods="14" coveredmethods="10"/>
       <file name="user.controller.js" path="C:\chapter11\src\user\user.controller.js">
-        <metrics statements="32" coveredstatements="18" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="2"/>
+        <metrics statements="32" coveredstatements="32" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
@@ -70,21 +70,21 @@
         <line num="24" count="1" type="stmt"/>
         <line num="26" count="1" type="stmt"/>
         <line num="30" count="1" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="42" count="0" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
         <line num="46" count="1" type="stmt"/>
-        <line num="47" count="0" type="stmt"/>
-        <line num="48" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="49" count="0" type="stmt"/>
-        <line num="51" count="0" type="stmt"/>
-        <line num="52" count="0" type="stmt"/>
-        <line num="53" count="0" type="stmt"/>
-        <line num="54" count="0" type="stmt"/>
-        <line num="56" count="0" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="48" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
         <line num="60" count="1" type="stmt"/>
         <line num="67" count="1" type="stmt"/>
       </file>

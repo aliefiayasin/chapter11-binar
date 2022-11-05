@@ -6,19 +6,19 @@ const fakeData = {
     fullname: faker.name.fullName(),
     email: faker.internet.email(),   
     password: faker.internet.password()
-}
+};
 
 const testData = {
     fullname: "Adam Malik",
     email: "adammalik@gmail.com",   
     password: "123123"
-}
+};
 
 const testUpdatedData = {
     fullname: "Adam Malik2",
     email: "adammalik2@gmail.com",   
     password: "1231232"
-}
+};
 
 
 describe('userRepository', () => {

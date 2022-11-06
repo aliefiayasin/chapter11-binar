@@ -18,10 +18,10 @@ const createRoom = async ({ roomName, hostUserId }) => {
 
 const getAllRoom = async () => {
   return new Promise(async (resolve, reject) => {
-    const room = await roomRepo.getAllRoom();
-    if (room) {
+    try {
+      const room = await roomRepo.getAllRoom();
       resolve(room);
-    } else {
+    } catch (e) {
       const error = new Error("Unknown Error");
       error.code = 500;
       reject(error);
@@ -31,10 +31,10 @@ const getAllRoom = async () => {
 
 const findRoom = async (roomId) => {
   return new Promise(async (resolve, reject) => {
-    const room = await roomRepo.findRoom(roomId);
-    if (room) {
+    try {
+      const room = await roomRepo.findRoom(roomId);
       resolve(room);
-    } else {
+    } catch (e) {
       const error = new Error("Room not exist");
       error.code = 404;
       reject(error);
@@ -44,10 +44,10 @@ const findRoom = async (roomId) => {
 
 const getRoomId = async ({ roomCode }) => {
   return new Promise(async (resolve, reject) => {
-    const room = await roomRepo.findRoomWithCode({ roomCode });
-    if (room) {
+    try {
+      const room = await roomRepo.findRoomWithCode({ roomCode });
       resolve(room);
-    } else {
+    } catch (e) {
       const error = new Error("Room not exist");
       error.code = 404;
       reject(error);

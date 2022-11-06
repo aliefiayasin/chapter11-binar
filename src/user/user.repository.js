@@ -1,4 +1,3 @@
-const { json } = require("body-parser");
 const { User } = require("../database/models");
 
 const createUser = async ({ fullname, email, password }) => {

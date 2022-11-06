@@ -14,6 +14,12 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   Room.init({
+    id: {
+      allowNull: false,
+      autoIncrement: true,
+      primaryKey: true,
+      type: DataTypes.INTEGER
+    },
     roomName: DataTypes.STRING,
     roomCode: DataTypes.STRING,
     hostUserId: DataTypes.INTEGER,
